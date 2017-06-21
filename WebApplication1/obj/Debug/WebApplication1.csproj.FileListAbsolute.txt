@@ -1,0 +1,4 @@
+c:\users\jgbelloc\documents\visual studio 2010\Projects\Repaso\WebApplication1\bin\WebApplication1.dll
+c:\users\jgbelloc\documents\visual studio 2010\Projects\Repaso\WebApplication1\bin\WebApplication1.pdb
+c:\users\jgbelloc\documents\visual studio 2010\Projects\Repaso\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\jgbelloc\documents\visual studio 2010\Projects\Repaso\WebApplication1\obj\Debug\WebApplication1.pdb

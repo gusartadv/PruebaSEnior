@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="misDatos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Tipo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="misDatos" nillable="true" type="tns:misDatos" />
+  <xs:complexType name="ArrayOfmisDatos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="misDatos" nillable="true" type="tns:misDatos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfmisDatos" nillable="true" type="tns:ArrayOfmisDatos" />
+</xs:schema>
